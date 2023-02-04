@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./image/pexels-lisa-fotios-730256.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.time {
+    padding: 1rem 0;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+h1,p{
+    font-size: 50px;
+    color: #f8f8f8;
+    letter-spacing: 2px;
+}
+
+#minutes, #seconds, #tens{
+    font-size: 50px;
+}
+
+.buttons{
+    display: flex;
+}
+
+button {
+    width: 100px;
+    padding: 0.8rem;
+    margin: 1rem 0.5rem;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+}
+
+#start{
+    align-items: center;
+    background-image: linear-gradient(144deg,#048014, #087c7e 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 110px;
+    padding: 15px 20px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+#stop{
+    align-items: center;
+    background-image: linear-gradient(144deg,#8d0707, #be10be 50%,#e3bc89);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 110px;
+    padding: 15px 20px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+#reset{
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 110px;
+  padding: 15px 20px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    color: #000;
+}
